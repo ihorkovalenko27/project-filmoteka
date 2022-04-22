@@ -7,9 +7,16 @@
     padding-bottom: 50px;
   }
   @media screen and (min-width: $desktop) {
+    background-image: url('../images/batman.png'), url('../images/superman.png'),
+      url('../images/kylo.png'), url('../images/rey.png');
+    background-position: left -30% top 100%, right -40% top 100%, left -19% top 11%,
+      right -26% top 6%;
+    background-repeat: no-repeat;
+    background-size: 35%, 40%, 35%, 40%;
     padding-bottom: 46px;
   }
 }
+
 .gallery {
   display: flex;
   flex-wrap: wrap;

@@ -8,3 +8,4 @@ import './js/render-modal-film-page.js';
 import './js/pagination.js';
 import './js/new-btn.js';
 import './js/theme-switch.js';
+import './js/slider.js';

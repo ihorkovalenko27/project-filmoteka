@@ -6,6 +6,11 @@
   text-align: center;
   padding-top: 29px;
   padding-bottom: 29px;
+  background-image: url('../images/batman.png'), url('../images/superman.png');
+  background-position: left -30% top 100%, right -40% top 100%;
+  background-repeat: no-repeat;
+  background-size: 34.75%, 39.3%;
+  padding-bottom: 46px;
   color: currentColor;
   background-color: $grey-secondary-color;
   @media screen and (min-width: $tablet) {
