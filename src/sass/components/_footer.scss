@@ -6,10 +6,6 @@
   text-align: center;
   padding-top: 29px;
   padding-bottom: 29px;
-  background-image: url('../images/batman.png'), url('../images/superman.png');
-  background-position: left -30% top 100%, right -40% top 100%;
-  background-repeat: no-repeat;
-  background-size: 34.75%, 39.3%;
   padding-bottom: 46px;
   color: currentColor;
   background-color: $grey-secondary-color;
@@ -19,9 +15,15 @@
     justify-content: center;
     padding-top: 30px;
     padding-bottom: 28px;
-
+    background-image: none;
     font-size: 16px;
     line-height: 1.2;
+  }
+  @media screen and (min-width: $desktop) {
+    background-image: url('../images/batman.png'), url('../images/superman.png');
+    background-position: left -30% top 100%, right -40% top 100%;
+    background-repeat: no-repeat;
+    background-size: 34.75%, 39.3%;
   }
   &.light-theme {
     background-color: $grey-secondary-color;

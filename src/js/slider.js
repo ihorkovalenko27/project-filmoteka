@@ -19,7 +19,6 @@ function renderTrendy() {
   return fetch(url)
     .then(response => response.json())
     .then(({ results }) => {
-      console.log(results);
       return results;
     })
     .then(renderSliderFilms)
